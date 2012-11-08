@@ -33,6 +33,9 @@ Bundle 'tpope/fugitive'
 Bundle 'tpope/vim-speeddating'
 Bundle 'scroolloose/vim-space'
 Bundle 'SirVer/ultisnips'
+Bundle 'FuzzyFinder'
+Bundle 'L9'
+
 syntax on
 filetype plugin indent on
 filetype plugin on
