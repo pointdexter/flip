@@ -7,3 +7,6 @@
 [submodule "vim-tmux"]
 	path = vim-tmux
 	url = git://github.com/tsaleh/vim-tmux.git
+[submodule "nerdtree"]
+	path = nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
