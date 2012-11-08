@@ -11,28 +11,9 @@ set nohidden
                                         " This shows what you are typing as a command.  I love this!
 set showcmd
 set  nocp
-"call pathogen#infect()
-"call pathogen#helptags()
-"call pathogen#runtime_append_all_bundles()
-filetype off                   " required!
-"Vundle {{{
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-Bundle 'gmarik/vundle'
-" }}}
-"
-" PACKAGES {{{
-Bundle 'tsaleh/vim-align'
-Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-speeddating'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-unimpaired'
-Bundle 'maxbrunsfeld/vim-yankstack'
-Bundle 'tpope/fugitive'
-Bundle 'tpope/vim-speeddating'
-Bundle 'scroolloose/vim-space'
-Bundle 'SirVer/ultisnips'
+call pathogen#infect()
+call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
 syntax on
 filetype plugin indent on
 filetype plugin on
@@ -42,16 +23,16 @@ if version >= 600
 endif
 
 "Since I use linux, I want this
- let g:clipbrdDefaultReg = '+'
- map <C-j> <C-W>j
- map <C-k> <C-W>k
- map <C-h> <C-W>h
- map <C-l> <C-W>l
- vmap <C-c> py
- nmap <C-c> pyiw
- vmap <C-p> pp
- nmap <C-p> pP
- imap <C-p> <Esc>ppa
+" let g:clipbrdDefaultReg = '+'
+" map <C-j> <C-W>j
+" map <C-k> <C-W>k
+" map <C-h> <C-W>h
+" map <C-l> <C-W>l
+" vmap <C-c> py
+" nmap <C-c> pyiw
+" vmap <C-p> pp
+" nmap <C-p> pP
+" imap <C-p> <Esc>ppa
 
 " This is totally awesome - remap jj to escape in insert mode.  You'll never
 " type jj anyway, so it's great!
